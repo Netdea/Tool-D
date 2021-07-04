@@ -1,4 +1,5 @@
 import colorama
+import time
 from colorama import Fore, Back ,Style
 print(Fore.LIGHTMAGENTA_EX + '''░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ░░░░░░░░░░░░░░░░░▄▄▄▄░░░░░░░░░░░░░░░░░░░░░░
@@ -25,10 +26,19 @@ print(Fore.LIGHTMAGENTA_EX + '''░░░░░░░░░░░░░░░░
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░''')
 print("---------------CHOOSE YOUR like----------------")
-print(Fore.LIGHTWHITE_EX + "1. phonenumber track....")
+print("")
+time.sleep(0.5)
+print(Fore.LIGHTWHITE_EX + "1. phonenumber info....")
+time.sleep(0.5)
 print(Fore.LIGHTWHITE_EX + "2. hash generator.....")
+time.sleep(0.5)
 print("3. Server Ddos... ")
+time.sleep(0.5)
+print("4. Facebook pass Bruteforce ")
+time.sleep(0.5)
+print("")
 selection=int(input(Fore.LIGHTRED_EX + "your choise :"))
+
 print('deadNet checking.......')
 from tqdm import tqdm, trange
 import time
@@ -69,6 +79,8 @@ if selection==2:
 if selection==1:
  import pifo
 
+if selection==3:
+ import dos
 
-
-
+if selection==4:
+ import fb
